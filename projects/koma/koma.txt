@@ -1,0 +1,25 @@
+Lost and Found
+aisha kazembe
+
+
+My partner was Kaori - her written description is below: 
+
+It is one of Japan's traditional toys, called a 'koma' (spinning top).
+It has a shape like an inverted cone, and children play with it by spinning it. It is made of wood,
+and the base color is beige. When viewed from above, it has a circular shape, and within that
+circle, there are concentric rings of black, beige, red, beige, black... forming black and red
+circular lines.
+The sides have ridges and grooves for winding a string around it.
+
+
+
+My interpretation of the image was a cone like figure to make most of the form of the top, with some thin rectangles at the top to represent the sides with ridges and groves for the string to wind around.
+I imagine that there was a spindle on the top and the bottom of the triangles and rectangles to allow people to spin the top. I imagined that from the top view, the top would be a circle that looked like a target with the colors Kaori mentioned, black, beige, and red. I set the top on a little glass table to show how it would sit on a surface
+
+
+To write this description in code, I would say to create a triangle with the angled sides facing south east and south west, with the top of the triangle horizontally flat and facing up, using the triangle() function. Then, add four thin rectangles on top of the triangle using the rect() funtion. the rectangles should have a width that's equal to the top of the triangle, and should be stacked up laying horizontally. Then, add short, vertical, thin rectangles to the top and bottom of the top. These shapes should all be beige.
+Create a quad() for the top to sit on top of, and at each corner of the quad(), add legs that come down as vertical, thin, rectangles. 
+To create the top view of the top, create a black circle, then a slightly smaller beige circle on top, then a slightly smaller red circle on top. continue this pattern of increasingly smaller circles layered on top of each other until you reach the middle. 
+
+
+While completing this assignment, the top did go through three different forms. When I first started, i was looking for a cone function, but quicly realized that wouldn't work because it's really a 3d depition of a rotated triangle. After this realization, I just made a triangle as the primary shape. At first, the triangle was made entirely of iterations of thin, horizontal rectangles that got smaller until they formed a kind of point. I used excel to get the incremented dimensions. I did this because I first imagined the top as having groves for a string to wind around all the way down to the bottom. Then I realized that a top can't actually work like that, so I changed the main shape to a normal triangle, and added rectangles on the top for the string to wind around. The top view of the top pretty much remained the same thoughout the process, i just moved it over a bit. 

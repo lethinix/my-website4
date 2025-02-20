@@ -1,0 +1,53 @@
+
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../assets/grass-water-blur.PNG);
+  
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  /* background-color: rgb(199, 235, 245); */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  
+}
+
+
+
+canvas {
+  display: block;
+  margin: auto;
+}
+
+#home{
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  color: rgb(158, 207, 245);
+}
+
+#box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+p{
+  text-align: center;
+  color: rgb(213, 228, 240);
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+
+
+

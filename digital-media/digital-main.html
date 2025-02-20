@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="digital-style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <!-- PDF.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js" integrity="sha512-..."></script>
+
+</head>
+
+    <div id="audio">
+    <audio controls autoplay style="height:650px">
+        <source src="../assets/french-bossa-nova.mp4" type="audio/ogg" volume="20%">
+      Your browser does not support the audio element.
+      </audio>
+    </div>
+
+<body>
+
+
+
+    <div class="gallery">
+        <!-- Project 1: p5.js Sketch -->
+        <div class="gallery-item" data-heading="surprised.strawberry" 
+        data-description="TESTIGN Xclick the strawberry to interact. surprised strawberry is a dynamic stawbary 
+        graphic made useing the p5js library. this strawberry can change emotions and colors as the user
+         navigates around the screen and clicks their mouse. click the screen to fill in the colors. " 
+        data-type="sketch" data-sketch="../projects/surprisedStrawberry/sketch.js">
+            <img src="../assets/surp-strawb-code.png" alt="surprised strawberry graphic">
+        </div>
+
+        <!-- Project 2: Video -->
+        <div class="gallery-item" data-heading="hack.game" 
+    data-description="this is a game about computer security, made using the p5.js library. 
+    this game challenges the player to hack into my computer, pretending to be me, by answering my 
+    security questions. The questions start out general and easy to answer or guess, and become more 
+    personal as the game progresses. Good luck with your hack. 
+    <a href='https://editor.p5js.org/aishaaa/full/7dtjoz65u' target='_blank'>view the project here</a>. 
+    if you would like to see the code for this project in more detail, feel free to email me!" 
+    data-type="video">
+    <video autoplay loop muted width="300">
+        <source src="../assets/logInGame-quiet.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+        <!-- Other Projects -->
+        <div class="gallery-item" data-heading="missing.clock" 
+        data-description="the missing click is a clock made using p5js that quantifies and displays missing
+         someone through time. the clock uses several variables related to the time the user has known 
+         another person, time spent with them, and time away to create a visual that represents how time 
+         passes as a function of distance from another person. on this clock, time moves forward when the 
+         two people are away, and backward when they are together." 
+        data-type="video">
+            <video id="myVideo" autoplay loop muted width="300">
+                <source src="../assets/missing-clock-vid.mov" type="video/mp4" alt="missing clock video">
+            </video>
+        </div>
+
+
+
+        <div class="gallery-item" data-heading="photo.cube" 
+        data-description="the photo.cube contains some of my favorite pictures from the last couple years. 
+        a digital version of that picture frame in your aunt's house that rotates pictures. it's made from
+        html, javascript, and css." 
+        data-type="video">
+            <video id="myVideo" autoplay loop muted width="300">
+                <source src="../assets/photo-cube.mov" type="video/mp4" alt="Project 4">
+            </video>
+        </div>
+        <div class="gallery-item" data-heading="our.memories" 
+        data-description="our memories is a zine i made in collaboration with two friends and photographers, 
+        chance jarvis and emily deen. our memories reflects on then-recent times in life that were so vivid
+        they felt like dreams. it explores the overlapping dreams and memories of strangers through a summer, 
+        displaying a montage of something between reality and romanization" 
+        data-type="pdf" data-link="../assets/ourmemories.pdf">
+            <img src="../assets/our-memories-pic.png" alt="PDF Thumbnail">
+
+        </div>
+        <div class="gallery-item" data-heading="renuwit.data-vis" 
+        data-description="this data visualization was made for ReNUWIt (re-inventing the nation's urban 
+        water infastructure), a research program that focused on urban water infastructure in the arid west.
+        during my second year interning with ReNUWIt, i helped create data visualizations that broke down
+        the program's student demograpics and other key data. this map was a result of one of those data 
+        explorations." 
+        data-type="image">
+            <img src="../assets/engineering/renuwit-map.png" alt="Project 5">
+            
+        </div>
+        <div class="gallery-item" data-heading="AR.sandbox" 
+        data-description="as a student researcher in USC's civil/environmental engineering department, i
+        worked with two of my peers to build an augmented reality sandbox using UC Davis' documentation for 
+        guidence. the AR sandbox was made of a physical sandbox, sand, two xbox kinects, a projector, and
+         a computer. the project used live feedback loops to project live terrain contour lines onto the sand
+         as the user moved the sand, changing the terrain. the system also projected water onto the terrain 
+         with specific hand movements, and modeled the flow of water through the terrain." 
+        data-type="video">
+            <video id="myVideo" autoplay loop muted width="300">
+                <source src="../assets/ARSandbox.mov" type="video/mp4" alt="ARSandbox">
+            </video>
+        </div>
+        <div class="gallery-item" data-heading="python.graphs" 
+        data-description="this python graph was made as part of a project for my undergrad degree. the graph 
+        explores the relationship between soil moisture, relative humidity, and precipitation, using python." 
+        data-type="image">
+            <img src="../assets/engineering/density-function.png" alt="Project 5">
+        </div>
+
+
+    </div>
+
+    <!-- Popup -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close" id="close">&times;</span>
+            <h2 id="popup-heading"></h2>
+            <p id="popup-description"></p>
+            <div id="popup-media"></div> <!-- Container for sketch, image, or video -->
+        </div>
+    </div>
+
+    <script src="digital-script.js"></script>
+
+    <a href="../homepage.html", style = "color: rgb(239, 188, 248);", id="home">go back home</a>
+
+</body>
+</html>

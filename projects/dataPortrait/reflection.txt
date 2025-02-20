@@ -1,0 +1,26 @@
+for my data portrait, i did a spinoff of my experimental clock. my experimental clock already seemed like it had some ways data could be fed into it, so i wanted to try to add a week's worth of data from my own life. my data portait shows the distance between two people based off of the number of texts sent between them per day. the data is only scaled by the max and min number of texts sent over the time recorded, so the distance between the two people is measured between 0 and 25 texts in one day,  plotted with the map() funciton. the lines on the screen show where they are each day on the spectrum between 1 and 12 texts, and when the texts are at a maxiumum, the distance is at a minimum. at the minimum distance/maximum text, the screen turns a deeper, celebratory pink. the size of the lable of the day is also determined by the number of texts. the user can click through the screen, each click takes them to a new day. 
+
+i used the number of texts i sent to my mom each day. i though about just plugging an array into my original clock drawing and using the arrary to add a value to a varrable 'c' i had that was a measurement of the amount of time you spent communicating with someone digitally, but since i was tracking texts with my mom (who i haven't seen in almost a year),i thought that the way i strucutred the old equation would be able to show a super noticable difference in the change of distance based on 'c' over the course of this week. so instead i just majorly simplified the the clock so that it doesn't incorporate time, only the data. i guess the last step would be to put these two together in an automation, or figure out how to get the clock v.1 to add a new array index for each day that i could enter somewhere and update the time each day. 
+
+this was my data, in texts per day: 
+wed
+Oct 9 - 2
+thurs
+Oct 10 - 2
+fri
+Oct 11 - 1
+sat
+Oct 12 - 3
+sun
+Oct 13 - 1
+mon
+Oct 14 - 1
+tues
+Oct 15 - 2
+wed
+Oct 16 - 0
+thurs
+Oct 17 - 1
+
+
+what i learned about myself in this process was that i only really text my mom when i need something or am sending her a picture of something i'm working on, or responding to a facebook video she sent. we do talk about more on the phone, but i don't have a distiction between talking on the phone and texting in either the clock or the data portait, so that could be an interesting thing to try to factor in. i'd say the time spent on the phone is what was lost thorugh this data visualization. i have a log of the calls, but not the length - and i almost thing the length is more important than the number of calls. 

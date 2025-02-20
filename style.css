@@ -1,0 +1,118 @@
+body {
+    /* background-color: #EDFEBA; */
+    /* background-image: url(assets/reflectgrass.jpg); */
+    font-family: 'Verdana', Verdana, Geneva, Tahoma, sans-serif, monospace;
+    /* color: rgb(2, 130, 25) */
+    color: rgb(44, 39, 39);
+    margin-left: 60px
+}
+
+/* header {
+    /* background-color: #EDFEBA;
+    /*padding: 8px; 
+    top: 20px;
+    margin: 8 px; 
+} */
+
+/* button {
+    width: 150 px;
+    height: 30px;
+    font-size: larger;
+    font-family: 'courrier New', Courrier, monospace;
+    background-color: blue;
+
+} 
+
+button:hover{
+    background-color: black;
+} */
+
+.text-block{
+    display: flex;
+}
+
+#proj{
+    position: absolute;
+    left: 55%;
+    top: 15%;
+    /* display:flex; */
+    flex-direction: row;
+}
+ #abtMe{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 22%;
+    left: 40%;
+ }
+
+#website2{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    flex-direction: row;
+}
+
+#welcome{
+    position:absolute;
+    top: 400px;
+    left:80%;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li{
+    padding: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(168, 224, 64);
+}
+
+a:hover{
+    background-color: rgb(43, 112, 176);
+    color: rgb(222, 225, 223);
+}
+
+h1{
+    color: rgb(158, 207, 245);
+    font-size: 15px;
+    position:absolute;
+    top: 5px;
+    left: 20px;
+    
+}
+
+h2{
+    color: rgb(158, 207, 245);
+    position:absolute;
+    top: 75px;
+    left: 10px;
+}
+
+/*#grassPic{ */
+
+    /*box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset ;
+} */
+
+.fishingVid{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+
+}
+
+audio{
+    top: 50%;
+}
