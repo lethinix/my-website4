@@ -59,7 +59,11 @@ let sketch = function(p) {
 
       // Nose (no stroke)
       p.fill(r, g, b);
+      p.push();
+      p.stroke('black');
       p.ellipse(200, 210, 15, 10);
+      p.pop();
+      
       p.quad(190, 199, 210, 199, 210, 214, 190, 214);
 
       // Mouth (still black)
