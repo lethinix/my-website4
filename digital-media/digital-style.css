@@ -12,18 +12,27 @@ body {
 
 .gallery {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically (optional) */
     gap: 10px;
-    position:absolute
+    position: absolute;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    width: 100%; /* Ensure the gallery takes full width */
+    padding: 10px; /* Add some padding */
+    left: 50%; /* Move the gallery to the center */
+    transform: translateX(-50%); /* Adjust for exact centering */
+    max-width: 1200px; /* Optional: Limit width on larger screens */
+    margin: 0 auto; /* Optional: Center the gallery container */
 }
 
 .gallery-item {
     width: 150px;
     height: 150px;
-    overflow:scroll;
+    overflow: hidden; /* Prevent internal scrolling */
     position: relative;
     cursor: pointer;
     transition: transform 0.3s ease;
+    flex-shrink: 0; /* Prevent items from shrinking */
 }
 
 .gallery-item img, .gallery-item video {
