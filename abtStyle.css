@@ -37,9 +37,32 @@ h1{
 
 #song{
     position: absolute;
-    top: 92%; /* Adjust as needed */
+    right: 1%; /* Adjust as needed */
+    bottom: 80px;
     padding-left: 6%;
-    color: rgb(205, 252, 252);
-    
+    color:  rgb(239, 188, 248); 
 }
 
+#audio {
+    position: fixed; /* Fix the audio player to the viewport */
+    bottom: 20px; /* Position it 20px from the bottom */
+    right: 20px; /* Position it 20px from the right */
+    z-index: 1000; /* Ensure it's above other content */
+    /*background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Add some padding */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+#audio audio {
+    width: 200px; /* Adjust the width of the audio player */
+    height: 40px; /* Set a fixed height for the controls */
+    -webkit-appearance: none; /* Disable default Chrome/Safari styling */
+    appearance: none; /* Disable default styling in other browsers */
+    background-color: transparent; /* Make the background transparent */
+}
+
+#audio audio::-webkit-media-controls-panel {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for controls */
+    border-radius: 10px; /* Rounded corners for controls */
+}
