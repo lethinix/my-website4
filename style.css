@@ -143,10 +143,13 @@ h2{
     color: #000; /* Ensure controls are visible (black) */
 }
 
+
+
 #song{
     position: absolute;
-    top: 92%; /* Adjust as needed */
-    padding-left: 1%;
-    color: rgb(45, 60, 60);
-    
+    right: 1%; /* Adjust as needed */
+    bottom: 80px;
+    padding-left: 6%;
+    /*color:  rgb(239, 188, 248); */
+    color: rgb(158, 207, 245);
 }
