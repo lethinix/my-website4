@@ -116,3 +116,11 @@ h2{
 audio{
     top: 50%;
 }
+
+#song{
+    position: absolute;
+    top: 92%; /* Adjust as needed */
+    padding-left: 1%;
+    color: rgb(45, 60, 60);
+    
+}

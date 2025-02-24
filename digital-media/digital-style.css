@@ -166,3 +166,10 @@ color: rgb(239, 188, 248)
 #data-heading{
     position: relative;
 }
+
+#song{
+    margin-top: 48%;
+    color:rgb(205, 252, 252);
+    position: absolute;
+    align-self: center;
+}

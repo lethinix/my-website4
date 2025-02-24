@@ -35,3 +35,11 @@ h1{
     top: 90%;
 }
 
+#song{
+    position: absolute;
+    top: 92%; /* Adjust as needed */
+    padding-left: 6%;
+    color: rgb(205, 252, 252);
+    
+}
+
